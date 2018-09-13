@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-image: url("../img/background.jpeg");
+    background-repeat: no-repeat;
+}
+
+#form-produto, #form-usuario, #form-login{
+    padding: 50px;
+    display: inline-block;
+    border: 1px solid transparent;
+    margin-left: 35%;
+    margin-top: 8%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+#mini-logomarca{
+    margin-left: 120px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#salvar{
+    background-color: blueviolet;
+    color: #FFFFFF;
+    border: #FFFFFF;
+}
+
+#logo{
+    margin-left: 110px;
+    margin-bottom: 8px;
+}
+
+#preview-perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+input{
+    display: block;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"]{
+    margin-top: 45px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+label{
+    background-color: #0288D1;
+    margin-left: 80px;
+    padding: 10px 10px;
+    width: 100px;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+textarea{
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+}
+
+#conteudo{
+    font-family: 'Quicksand', sans-serif;
+}

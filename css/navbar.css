@@ -1,0 +1,44 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  padding: 10px;
+  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    font-weight: bold;
+}
+
+.itemDireita p{
+  margin-top: 13px;
+}
+
+.itemDireita{
+  float: right;
+  color: #FFFFFF;
+}
