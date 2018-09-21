@@ -48,6 +48,12 @@ span{
   height: 300px;
 }
 
+#mensagem{
+  margin-left: 20%;
+  margin-top: 20%;
+  font-family: 'Quicksand', sans-serif;
+}
+
 .card{
    width: 30%;
    margin: 10px;

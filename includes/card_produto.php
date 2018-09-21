@@ -3,6 +3,9 @@
   require_once './classes/Produto.php';
 
   $dados = Produto::listarProdutos();
+
+  if($dados != null){
+
   foreach ($dados as $produto) {
 
   ?>
@@ -31,9 +34,18 @@
 
 
   <hr>
+  <?php
+  if(isset($_SESSION["usuario"])){
+  ?>
   <input type="submit" value="Deletar">
   <input type="button" value="Atualizar">
+<?php }?>
 </form>
 </div>
 <?php } ?>
+<?php
+  }else{
+?>
+<h1 id="mensagem">Ooooppsss, não há nenhum produto cadastrado por aqui!!!</h1>
+<?php }?>
 </div>

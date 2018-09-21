@@ -19,15 +19,18 @@ and open the template in the editor.
       <?php
           require_once dirname(__FILE__).'/includes/navbar.php';
           require_once dirname(__FILE__).'/includes/info_modal.php';
-          
+
           if(isset($_SESSION["inexistente"])){
          ?>
         <script> openModal("<?= $_SESSION["inexistente"] ?>")</script>
          <?php }?>
-        <form method="POST" action="funcoes/loginUsuario.php" id="form-login">
+        <div id="form-login">
+        <form method="POST" action="funcoes/loginUsuario.php">
             <input type="email" name="pEmail" placeholder="Email...">
             <input type="password" name="pSenha" placeholder="Senha">
             <input type="submit" value="Logar">
         </form>
+        <a href="recuperar_senha.php">Esqueceu sua senha?</a>
+      </div>
     </body>
 </html>

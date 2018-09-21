@@ -7,7 +7,7 @@
     <li><a href="cadastrar_produto.php"> Cadastrar Meu Produto</a></li>
     <li><a href="cadastrar_usuario.php"> Cadastrar-me como cliente</a></li>
     <?php
-    if($_SESSION["usuario"]){
+    if(isset($_SESSION["usuario"])){
     ?>
     <li class="itemDireita"><a href="funcoes/logout.php">Sair</a></li>
     <li class="itemDireita"><p><?=$usuario->getApelido(); ?></p></li>
